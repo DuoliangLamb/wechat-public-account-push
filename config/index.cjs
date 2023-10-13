@@ -73,7 +73,7 @@ const USER_CONFIG = {
   
   TIAN_API: {
     // 天行API KEY，如果使用天行API则需要填写此项
-    key: '3dbda93421dc3ac634bd9ff7b4a75013','3dbda93421dc3ac634bd9ff7b4a75013',
+    key: '3dbda93421dc3ac634bd9ff7b4a75013','3dbda93421dc3ac634bd9ff7b4a75013'
     
     /** 天行API相关，需要config中配置 TIAN_API_KEY  */
     // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
