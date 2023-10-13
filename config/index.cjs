@@ -111,7 +111,7 @@ const USER_CONFIG = {
       name: '老婆0',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'o8jCF6g7OuxlO9zxumhe1Gm8sIYs',
+      id: 'o8jCF6gZr8nGt2bUKFfYwLxBtjo4',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
       useTemplateId: 'LmhHhvdLo4kFj584orE8U6423vYc6ykR0NyQOo3robc',
