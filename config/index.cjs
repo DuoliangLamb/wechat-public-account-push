@@ -6,24 +6,25 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = {
+  USE_PASSAGE: 'push-deer',
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wxed13d93991496d64',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: 'b8578dbf8de3fa1d30fb93f7214212e4',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '上海',
+  CITY: '上海市',
 
   USERS: [
     {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'PDU25990TRsdaoQ2T0fu55iKew8PWNWPdB3ReRXKI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: 'mhjyLnhowtURvmPwI6iF06IdIMDBN9QfYC9iel8eeJ4',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       festivals: [
@@ -51,13 +52,13 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'S4n00e6CjI-Wgahp2uli5X1Vzh3u6ZCtLsG8B2umqtE',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'o8jCF6g7OuxlO9zxumhe1Gm8sIYs',
     }
   ],
 
