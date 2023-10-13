@@ -111,7 +111,7 @@ const USER_CONFIG = {
       name: '老婆0',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'oQXiU6pSOTdTTv9LK5I24PNRhk2E',
+      id: 'o8jCF6g7OuxlO9zxumhe1Gm8sIYs',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
       useTemplateId: '_lm6J-4YF-mrc-NjZfs_NNF-Yb3f8tktMM9pQ_5AFEw',
@@ -120,36 +120,25 @@ const USER_CONFIG = {
       // 所在城市或县区
       city: '上海市',
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '12-27',
+      horoscopeDate: '3-13',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: 'https://wangxinleo.cn',
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '老婆', year: '1996', date: '09-09',
-        },
-        {
-          type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
-        },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
+          type: '生日', name: '小咪', year: '1997', date: '03-13',
         },
         {
-          type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-01',
+          type: '节日', name: '被搭讪纪念日', year: '2016', date: '09-01',
         }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
-        // 退伍日
-        { keyword: 'ex_day', date: '2022-09-10' }
+        { keyword: 'love_day', date: '2016-09-01' },
       ],
       // 课程表相关配置
       // 如果courseSchedule不存在或者为空（null）则认为没有课程
@@ -219,15 +208,26 @@ const USER_CONFIG = {
     },
     {
       name: '老婆1',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      id: 'o8jCF6iDEWr8UaNZy8YT1wleidZY',
+      useTemplateId: 'R4MfsEyFXnJijCtPi9j9j1P4t2kgd2Jj4xkENnvksdo',
+      province: '上海',
+      city: '上海市',
+      horoscopeDate: '12-02',
+      horoscopeDateType: '今日',
       openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
+      festivals: [
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '小咪', year: '1997', date: '03-13',
+        },
+        {
+          type: '节日', name: '被搭讪纪念日', year: '2016', date: '09-01',
+        }
+      ],
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2016-09-01' },
+      ],
       courseSchedule: null
     },
     {
